@@ -1,0 +1,26 @@
+html {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+
+.header {
+  text-align: center;
+}
+
+.header__logo {
+  padding: 88px 0 60px;
+}
+
+/* .logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 300px;
+} */

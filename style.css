@@ -43,6 +43,7 @@ a {
 .menu__list {
   display: flex;
   justify-content: center;
+  margin: 0;
 }
 
 .menu__list-item {
@@ -50,17 +51,107 @@ a {
 }
 
 .menu__list-link {
+  border-left: 1px solid #c4c4c4;
+  border-right: 1px solid #c4c4c4;
   font-size: 24px;
   line-height: 28px;
   color: #888;
-  max-width: 300px;
   display: block;
   padding: 34px 10px 38px;
+  transition: all 0.6s;
 }
 
-/* .logo {
+.menu__list-link:hover {
+  background-color: #000;
+  color: white;
+}
+
+.menu__list-item:first-child {
+  border-left: 1px solid #c4c4c4;
+  background-color: #000;
+  color: white;
+}
+
+.menu__list-item:last-child {
+  border-right: 1px solid #c4c4c4;
+}
+
+.slider__item {
+  min-height: 600px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top center;
+}
+
+.slick-arrow {
+  border: none;
+  background-color: transparent;
+  outline: none;
+  position: absolute;
+  top: 50%;
+  z-index: 5;
+  cursor: pointer;
+  transform: translateY(-50%);
+}
+
+.slick-prev {
+  left: 20px;
+}
+
+.slick-next {
+  right: 20px;
+}
+
+.search__inner {
+  padding: 60px 0 70px;
+}
+
+.search__form {
   display: flex;
-  align-items: center;
   justify-content: center;
-  height: 300px;
-} */
+  align-items: center;
+}
+
+.search__form-label {
+  font-size: 24px;
+  margin-right: 69px;
+  font-family: "Roboto Condensed", sans-serif;
+  width: 156px;
+  color: #888;
+}
+
+.search__form-input {
+  min-width: 431px;
+  padding: 23px 387px 23px 15px;
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 24px;
+  border: 2px solid #c4c4c4;
+  outline: none;
+}
+
+.search__form-input::placeholder {
+  color: #888;
+}
+
+.search__form-btn {
+  width: 121px;
+  padding: 23px 23px 23px 36px;
+  font-size: 24px;
+  font-family: "Roboto Condensed", sans-serif;
+  border: 2px solid #c4c4c4;
+  border-left: none;
+  position: relative;
+  color: white;
+  background-color: #c4c4c4;
+  cursor: pointer;
+}
+
+.search__form-btn:before {
+  background-image: url("/images/search.svg");
+  content: "";
+  height: 18px;
+  width: 18px;
+  position: absolute;
+  left: 12px;
+  top: 28px;
+}

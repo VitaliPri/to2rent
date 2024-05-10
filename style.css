@@ -289,3 +289,57 @@ a {
   display: inline-block;
   cursor: pointer;
 }
+
+.about {
+  background-color: rgb(143, 139, 139);
+  padding: 100px 0 200px 0;
+}
+
+.about__inner {
+  display: flex;
+  justify-content: space-between;
+}
+
+.our-managers__items {
+  display: flex;
+  width: 300px;
+  gap: 70px;
+}
+
+.our-managers__item {
+  width: 120px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.about__title {
+  font-family: "PT Serif", serif;
+  font-size: 48px;
+  color: white;
+  line-height: 48px;
+  margin-bottom: 27px;
+  margin-top: 0;
+  text-align: center;
+}
+
+.our-managers__img {
+  border-radius: 50%;
+}
+
+.our-managers__list {
+  width: 120px;
+  text-align: center;
+  padding: 0;
+}
+
+.our-managers__btn {
+  padding: 18px 21px;
+  background-color: rgb(243, 242, 242);
+  color: rgb(11, 10, 10);
+  border: none;
+  outline: none;
+  cursor: pointer;
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 18px;
+}

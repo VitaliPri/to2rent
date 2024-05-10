@@ -291,20 +291,20 @@ a {
 }
 
 .about {
-  background-color: rgb(143, 139, 139);
+  background-color: black;
   padding: 100px 0 200px 0;
 }
 
 .about__inner {
   display: flex;
   justify-content: space-between;
-  /* gap: 92px; */
 }
 
 .our-managers__items {
   display: flex;
   width: 300px;
   gap: 70px;
+  margin-right: 33px;
 }
 
 .our-managers__item {
@@ -382,4 +382,82 @@ a {
 
 .reviews {
   width: 300px;
+}
+
+.reviews__img {
+  margin-bottom: 22px;
+}
+
+.reviews__text {
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 18px;
+  color: white;
+  margin-bottom: 22px;
+  margin-top: 0;
+}
+
+.reviews__link {
+  padding: 16px 28px;
+  background-color: white;
+  display: inline-block;
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 18px;
+  color: black;
+}
+
+.footer {
+}
+
+.footer__top {
+  padding-bottom: 100;
+  background-color: black;
+}
+
+.footer__top-inner {
+  display: flex;
+  align-items: center;
+}
+
+.footer__menu-list {
+  width: 250px;
+  margin: 0 50px 0 0;
+  padding: 0;
+}
+
+.footer__menu-link {
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 24px;
+  color: rgb(249, 246, 246);
+  line-height: 36px;
+}
+
+.footer__form-label {
+  margin-right: 15px;
+  color: #888;
+}
+
+.footer__form-input {
+  width: 510px;
+  padding: 26px 300px 23px 15px;
+  border: 1px solid #c4c4c4;
+  outline: none;
+}
+
+.footer__form-input::placeholder {
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 18px;
+}
+
+.footer__form-btn {
+  background-color: #c4c4c4;
+  color: white;
+  padding: 23px 33px;
+  border: none;
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 18px;
+}
+
+.footer__logo {
+  text-align: center;
+  padding: 3px 0 5px;
 }

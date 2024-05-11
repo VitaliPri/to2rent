@@ -265,8 +265,8 @@ a {
 }
 
 .image {
-  background-image: url("/images/villa.jpg");
   min-height: 100vh;
+  background-image: url("/images/villa.jpg");
   background-position: center;
 }
 
@@ -473,6 +473,18 @@ a {
   }
 }
 
+@media (max-width: 992px) {
+  .popular__inner {
+    margin-bottom: 100px;
+  }
+  .reason__inner {
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    gap: 50px;
+  }
+}
+
 @media (max-width: 850px) {
   .search__form {
     flex-wrap: wrap;
@@ -512,6 +524,9 @@ a {
     width: 40%;
   }
   .search__inner {
+    display: none;
+  }
+  .reason {
     display: none;
   }
 }

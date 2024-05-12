@@ -299,6 +299,7 @@ a {
 .about__inner {
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 .our-managers__items {
@@ -483,6 +484,9 @@ a {
     align-items: center;
     gap: 50px;
   }
+  .footer {
+    display: none;
+  }
 }
 
 @media (max-width: 850px) {
@@ -502,6 +506,9 @@ a {
     width: 280px;
     height: 280px;
   }
+  .our-managers {
+    margin-bottom: 40px;
+  }
 }
 @media (max-width: 768px) {
   .menu__list {
@@ -517,6 +524,9 @@ a {
   }
   .popular__item {
     width: 100%;
+  }
+  .about__inner {
+    justify-content: center;
   }
 }
 @media (max-width: 600px) {
